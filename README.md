@@ -5,8 +5,8 @@ Repository für meine Masterarbeit "Konzeption und Implementierung eines Open-Do
  Repository for my master's thesis "Design and Implementation of an Open-Domain Question-Answering System with Elasticsearch and Language Models"
 
 
- # Kurfassung / Abstract
-
+ # Kurzfassung / Abstract
+ 
 Kurzfassung
 
 Diese Arbeit präsentiert die Konzeption und prototypische Implementierung eines Open Domain Question Answering (OpenQA) Systems, welches darauf ausgerichtet ist, präzi-se Antworten auf Fragen in natürlicher Sprache zu liefern. Es zielt darauf ab, die Generie-rung von "Halluzinationen", also nicht faktengestützten Antworten, die bei Sprachmodel-len wie GPT-3 auftreten können, auszuschließen. Dies wird erreicht, indem es zur Beant-wortung von Fragen ausschließlich auf Informationen in der Datenbasis aus unstruktu-rierter Text zurückgreift. Das System basiert auf einer Retriever-Reader-Architektur, die durch eine Re-Ranking-Komponente erweitert wird, um sowohl lexikalisches als auch semantisches Retrieval zu verwenden. Der BM25-Algorithmus wird für die lexikalische Suche eingesetzt, während die semantische Suche Vektor-Embeddings verwendet, die durch einen Dual-Encoder generiert und mit einer aproximativen Nearest Neighbor-Suche abgefragt werden. Ein Cross-Encoder wird als Re-Ranker eingesetzt, und ein Transfor-mer-basiertes, extraktives QA-Modell wird für die finale Antwortextraktion verwendet. Elasticsearch dient als Datenbank. Die Arbeit diskutiert die theoretischen Grundlagen von OpenQA und gibt einen Überblick über relevante Forschungsarbeiten. Die Designent-scheidungen während der Konzeption des Systems basieren auf einer Anforderungsana-lyse und werden ausführlich begründet. Die Implementierung des Systems wird beschrie-ben, und seine Leistungsfähigkeit wird durch eine Evaluation belegt. Die erzielten Ergeb-nisse zeigen, dass die Kombination aus den Retrieval-Methoden, Re-Ranking und dem extraktiven Reader-Modell eine tragfähige Lösung für den in dieser Arbeit beschriebenen Anwendungsfall darstellt.
