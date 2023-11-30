@@ -1,0 +1,817 @@
+{
+    "questions": [
+        {
+            "query_text": "What is the capital of Australia?",
+            "expected_answer": [
+                "Canberra"
+            ],
+            "answer_given": "Canberra",
+            "answer_correct": true
+        },
+        {
+            "query_text": "When was the Eiffel Tower built?",
+            "expected_answer": [
+                "1889"
+            ],
+            "answer_given": " between 1887 and 1889",
+            "answer_correct": true
+        },
+        {
+            "query_text": "Who wrote the novel '1984'?",
+            "expected_answer": [
+                "George Orwell"
+            ],
+            "answer_given": " George Orwell",
+            "answer_correct": true
+        },
+        {
+            "query_text": "What is the tallest mountain in the world?",
+            "expected_answer": [
+                "Mount Everest"
+            ],
+            "answer_given": " Mauna Loa",
+            "answer_correct": false
+        },
+        {
+            "query_text": "What is the chemical formula for water?",
+            "expected_answer": [
+                "H2O"
+            ],
+            "answer_given": "Dihydrogen monoxide",
+            "answer_correct": true
+        },
+        {
+            "query_text": "Who was the first person to walk on the moon?",
+            "expected_answer": [
+                "Neil Armstrong"
+            ],
+            "answer_given": "Neil Alden Armstrong",
+            "answer_correct": true
+        },
+        {
+            "query_text": "What is the distance between the Earth and the Sun?",
+            "expected_answer": [
+                "Approximately 93 million miles",
+                "About 150 million kilometers"
+            ],
+            "answer_given": " 149,600,000 kilometers",
+            "answer_correct": true
+        },
+        {
+            "query_text": "What is the largest ocean on Earth?",
+            "expected_answer": [
+                "Pacific Ocean"
+            ],
+            "answer_given": " Pacific Ocean",
+            "answer_correct": true
+        },
+        {
+            "query_text": "When was the United Nations established?",
+            "expected_answer": [
+                "1945"
+            ],
+            "answer_given": " 24 October 1945",
+            "answer_correct": true
+        },
+        {
+            "query_text": "Who carried the weight of the world on his shoulders?",
+            "expected_answer": [
+                "Atlas"
+            ],
+            "answer_given": " Atlas",
+            "answer_correct": true
+        },
+        {
+            "query_text": "What is the square root of 256?",
+            "expected_answer": [
+                "16"
+            ],
+            "answer_given": "",
+            "answer_correct": false
+        },
+        {
+            "query_text": "Who is the author of 'Pride and Prejudice'?",
+            "expected_answer": [
+                "Jane Austen"
+            ],
+            "answer_given": " Jane Austen",
+            "answer_correct": true
+        },
+        {
+            "query_text": "What is the speed of light?",
+            "expected_answer": [
+                "299,792 kilometers per second",
+                "186,282 miles per second"
+            ],
+            "answer_given": " 670,616,629\u00a0mph",
+            "answer_correct": true
+        },
+        {
+            "query_text": "When was the internet invented?",
+            "expected_answer": [
+                "1960s",
+                "1969"
+            ],
+            "answer_given": " 1969",
+            "answer_correct": true
+        },
+        {
+            "query_text": "Who was the 16th President of the United States?",
+            "expected_answer": [
+                "Abraham Lincoln"
+            ],
+            "answer_given": "Abraham Lincoln",
+            "answer_correct": true
+        },
+        {
+            "query_text": "Which country has the largest population?",
+            "expected_answer": [
+                "China"
+            ],
+            "answer_given": " Guatemala",
+            "answer_correct": false
+        },
+        {
+            "query_text": "What is the main ingredient in chocolate?",
+            "expected_answer": [
+                "Cacao beans",
+                "Cocoa beans"
+            ],
+            "answer_given": " caffeine",
+            "answer_correct": false
+        },
+        {
+            "query_text": "Who invented the telephone?",
+            "expected_answer": [
+                "Alexander Graham Bell"
+            ],
+            "answer_given": "Alexander Graham Bell",
+            "answer_correct": true
+        },
+        {
+            "query_text": "What is the human body's largest organ?",
+            "expected_answer": [
+                "Skin"
+            ],
+            "answer_given": " The skin",
+            "answer_correct": true
+        },
+        {
+            "query_text": "Who discovered penicillin?",
+            "expected_answer": [
+                "Alexander Fleming"
+            ],
+            "answer_given": " Sir Alexander Fleming",
+            "answer_correct": true
+        },
+        {
+            "query_text": "What is the currency of Japan?",
+            "expected_answer": [
+                "Yen"
+            ],
+            "answer_given": " Japanese yen or en",
+            "answer_correct": true
+        },
+        {
+            "query_text": "Who is the current Secretary-General of the United Nations?",
+            "expected_answer": [
+                "Ant\u00f3nio Guterres"
+            ],
+            "answer_given": " Ant\u00f3nio Guterres",
+            "answer_correct": true
+        },
+        {
+            "query_text": "What is the theory of relativity?",
+            "expected_answer": [
+                "A theory by Albert Einstein that relates space and time"
+            ],
+            "answer_given": " special relativity",
+            "answer_correct": false
+        },
+        {
+            "query_text": "Who wrote 'The Odyssey'?",
+            "expected_answer": [
+                "Homer"
+            ],
+            "answer_given": " Homer",
+            "answer_correct": true
+        },
+        {
+            "query_text": "What is photosynthesis?",
+            "expected_answer": [
+                "The process used by plants to convert light energy, usually from the Sun, into chemical energy"
+            ],
+            "answer_given": " the process by which plants and some microorganisms make substances like carbohydrates",
+            "answer_correct": true
+        },
+        {
+            "query_text": "What is the holy book of Islam?",
+            "expected_answer": [
+                "Quran",
+                "Koran"
+            ],
+            "answer_given": "The Qur'an",
+            "answer_correct": true
+        },
+        {
+            "query_text": "Who invented the light bulb?",
+            "expected_answer": [
+                "Thomas Edison"
+            ],
+            "answer_given": "",
+            "answer_correct": false
+        },
+        {
+            "query_text": "What is the largest mammal in the world?",
+            "expected_answer": [
+                "Blue whale"
+            ],
+            "answer_given": "Elephants",
+            "answer_correct": false
+        },
+        {
+            "query_text": "What is the boiling point of water at sea level?",
+            "expected_answer": [
+                "100 degrees Celsius",
+                "212 degrees Fahrenheit"
+            ],
+            "answer_given": "",
+            "answer_correct": false
+        },
+        {
+            "query_text": "When was the first World War?",
+            "expected_answer": [
+                "1914-1918"
+            ],
+            "answer_given": " 1914 to 1918",
+            "answer_correct": true
+        },
+        {
+            "query_text": "What is the national bird of the United States?",
+            "expected_answer": [
+                "Bald Eagle"
+            ],
+            "answer_given": "The bald eagle",
+            "answer_correct": true
+        },
+        {
+            "query_text": "Who wrote the play 'Romeo and Juliet'?",
+            "expected_answer": [
+                "William Shakespeare"
+            ],
+            "answer_given": " William Shakespeare",
+            "answer_correct": true
+        },
+        {
+            "query_text": "What is the speed of sound?",
+            "expected_answer": [
+                "Approximately 343 meters per second"
+            ],
+            "answer_given": " per hour or per second",
+            "answer_correct": false
+        },
+        {
+            "query_text": "Who was the first woman to win a Nobel Prize?",
+            "expected_answer": [
+                "Marie Curie"
+            ],
+            "answer_given": "Maria Salomea Sk\u0142odowska\u2013Curie",
+            "answer_correct": true
+        },
+        {
+            "query_text": "What is the capital of Brazil?",
+            "expected_answer": [
+                "Bras\u00edlia"
+            ],
+            "answer_given": " Bras\u00edlia",
+            "answer_correct": true
+        },
+        {
+            "query_text": "What is the practice of farming both fish and plants together in an integrated system?",
+            "expected_answer": [
+                "Aquaponics"
+            ],
+            "answer_given": "",
+            "answer_correct": false
+        },
+        {
+            "query_text": "Who sang it too late baby now it's too late?",
+            "expected_answer": [
+                "Carole King"
+            ],
+            "answer_given": " Carole King",
+            "answer_correct": true
+        },
+        {
+            "query_text": "What is the main ingredient in sushi?",
+            "expected_answer": [
+                "Rice"
+            ],
+            "answer_given": " rice",
+            "answer_correct": true
+        },
+        {
+            "query_text": "Who were the original members of the beatles",
+            "expected_answer": [
+                "Paul McCartney",
+                "Pete Best",
+                "George Harrison",
+                "Stuart Sutcliffe",
+                "John Lennon"
+            ],
+            "answer_given": " John Lennon, Paul McCartney, George Harrison, and Ringo Starr",
+            "answer_correct": false
+        },
+        {
+            "query_text": "Who was the first Prime Minister of India?",
+            "expected_answer": [
+                "Jawaharlal Nehru"
+            ],
+            "answer_given": "Indira Gandhi",
+            "answer_correct": false
+        },
+        {
+            "query_text": "Who is the current monarch of the United Kingdom?",
+            "expected_answer": [
+                "Queen Elizabeth II"
+            ],
+            "answer_given": " Elizabeth II",
+            "answer_correct": true
+        },
+        {
+            "query_text": "what do the four colours of the uae flag represent?",
+            "expected_answer": [
+                "the Pan-Arab colors"
+            ],
+            "answer_given": " Arab unity",
+            "answer_correct": false
+        },
+        {
+            "query_text": "What is the smallest planet in our solar system?",
+            "expected_answer": [
+                "Mercury"
+            ],
+            "answer_given": "Mercury",
+            "answer_correct": true
+        },
+        {
+            "query_text": "Who is the author of 'To Kill a Mockingbird'?",
+            "expected_answer": [
+                "Harper Lee"
+            ],
+            "answer_given": " Harper Lee",
+            "answer_correct": true
+        },
+        {
+            "query_text": "What is the distance from Earth to Mars?",
+            "expected_answer": [
+                "Approximately 225 million kilometers",
+                "Approximately 140 million miles"
+            ],
+            "answer_given": " 1.4 AU",
+            "answer_correct": true
+        },
+        {
+            "query_text": "How many teams are there in the premier league?",
+            "expected_answer": [
+                "20"
+            ],
+            "answer_given": " 20",
+            "answer_correct": true
+        },
+        {
+            "query_text": "Who discovered gravity?",
+            "expected_answer": [
+                "Isaac Newton"
+            ],
+            "answer_given": " Albert Einstein",
+            "answer_correct": false
+        },
+        {
+            "query_text": "Who led the Israelites out of Egypt?",
+            "expected_answer": [
+                "Mandarin Chinese"
+            ],
+            "answer_given": " Moses",
+            "answer_correct": false
+        },
+        {
+            "query_text": "What is the national flower of France?",
+            "expected_answer": [
+                "Lily",
+                "Fleur-de-lis"
+            ],
+            "answer_given": " lotus",
+            "answer_correct": false
+        },
+        {
+            "query_text": "When was the first Olympic Games held?",
+            "expected_answer": [
+                "1896"
+            ],
+            "answer_given": " April 6 to 15, 1896",
+            "answer_correct": true
+        },
+        {
+            "query_text": "Which mountain range separates Europe from Asia?",
+            "expected_answer": [
+                "Ural Mountains"
+            ],
+            "answer_given": " Pontic Mountains",
+            "answer_correct": false
+        },
+        {
+            "query_text": "Which chess piece can only move diagonally?",
+            "expected_answer": [
+                "Bishop"
+            ],
+            "answer_given": "The king",
+            "answer_correct": false
+        },
+        {
+            "query_text": "What do you call a polygon with eight sides?",
+            "expected_answer": [
+                "Octagon"
+            ],
+            "answer_given": " octagon",
+            "answer_correct": true
+        },
+        {
+            "query_text": "Who is known as the 'Father of Medicine'?",
+            "expected_answer": [
+                "Hippocrates"
+            ],
+            "answer_given": "Hippocrates",
+            "answer_correct": true
+        },
+        {
+            "query_text": "Who was the first female Prime Minister of the United Kingdom?",
+            "expected_answer": [
+                "Margaret Thatcher"
+            ],
+            "answer_given": "Thatcher",
+            "answer_correct": true
+        },
+        {
+            "query_text": "In which board game can you trade properties and try to bankrupt your opponents?",
+            "expected_answer": [
+                "Monopoly"
+            ],
+            "answer_given": "Monopoly",
+            "answer_correct": true
+        },
+        {
+            "query_text": "Which sea creature has the largest brain?",
+            "expected_answer": [
+                "Sperm whale"
+            ],
+            "answer_given": "",
+            "answer_correct": false
+        },
+        {
+            "query_text": "Which organ is responsible for producing insulin?",
+            "expected_answer": [
+                "Pancreas"
+            ],
+            "answer_given": " pancreas",
+            "answer_correct": true
+        },
+        {
+            "query_text": "In which movie will you hear the line, 'Here's looking at you, kid'?",
+            "expected_answer": [
+                "Casablanca"
+            ],
+            "answer_given": "",
+            "answer_correct": false
+        },
+        {
+            "query_text": "In which country can you visit Machu Picchu?",
+            "expected_answer": [
+                "Peru"
+            ],
+            "answer_given": " Peru",
+            "answer_correct": true
+        },
+        {
+            "query_text": "What is the Aurora Borealis commonly known as?",
+            "expected_answer": [
+                "Northern Lights"
+            ],
+            "answer_given": "northern lights",
+            "answer_correct": true
+        },
+        {
+            "query_text": "Who is credited with proposing the theory of evolution by natural selection?",
+            "expected_answer": [
+                "Charles Darwin"
+            ],
+            "answer_given": "Alfred Russel Wallace",
+            "answer_correct": false
+        },
+        {
+            "query_text": "Which planet is known as the Red Planet?",
+            "expected_answer": [
+                "Mars"
+            ],
+            "answer_given": "",
+            "answer_correct": false
+        },
+        {
+            "query_text": "What is the world's longest river?",
+            "expected_answer": [
+                "The Nile"
+            ],
+            "answer_given": " Nile River",
+            "answer_correct": true
+        },
+        {
+            "query_text": "Who composed the music for the ballet 'Swan Lake'?",
+            "expected_answer": [
+                "Pyotr Ilyich Tchaikovsky"
+            ],
+            "answer_given": " Pyotr Ilyich Tchaikovsky",
+            "answer_correct": true
+        },
+        {
+            "query_text": "Which element is represented by the chemical symbol 'Au'?",
+            "expected_answer": [
+                "Gold"
+            ],
+            "answer_given": " gold",
+            "answer_correct": true
+        },
+        {
+            "query_text": "What is the primary gas found in Earth's atmosphere?",
+            "expected_answer": [
+                "Nitrogen"
+            ],
+            "answer_given": " hydrogen",
+            "answer_correct": false
+        },
+        {
+            "query_text": "Who is known for his theory of general relativity in physics?",
+            "expected_answer": [
+                "Albert Einstein"
+            ],
+            "answer_given": " Albert Einstein",
+            "answer_correct": true
+        },
+        {
+            "query_text": "What instrument is used to measure atmospheric pressure?",
+            "expected_answer": [
+                "Barometer"
+            ],
+            "answer_given": "Barometers",
+            "answer_correct": true
+        },
+        {
+            "query_text": "Which famous play features the quote 'To be or not to be, that is the question'?",
+            "expected_answer": [
+                "Hamlet by William Shakespeare"
+            ],
+            "answer_given": "The Tragedy of Hamlet, Prince of Denmark",
+            "answer_correct": true
+        },
+        {
+            "query_text": "Which mountain range runs along the eastern border of Chile?",
+            "expected_answer": [
+                "Andes"
+            ],
+            "answer_given": " Andes",
+            "answer_correct": true
+        },
+        {
+            "query_text": "What structure was originally built as a mausoleum for the Mughal emperor Shah Jahan's wife?",
+            "expected_answer": [
+                "Taj Mahal"
+            ],
+            "answer_given": "The Taj Mahal",
+            "answer_correct": true
+        },
+        {
+            "query_text": "Who won the war of 1812 between russia and france?",
+            "expected_answer": [
+                "Russian victory"
+            ],
+            "answer_given": " France",
+            "answer_correct": false
+        },
+        {
+            "query_text": "In which year did the Titanic sink?",
+            "expected_answer": [
+                "1912"
+            ],
+            "answer_given": " 1912",
+            "answer_correct": true
+        },
+        {
+            "query_text": "Who is famous for his Mona Lisa and The Last Supper artworks?",
+            "expected_answer": [
+                "Leonardo da Vinci"
+            ],
+            "answer_given": " Leonardo da Vinci",
+            "answer_correct": true
+        },
+        {
+            "query_text": "Who is the supreme leader of north korea",
+            "expected_answer": [
+                "Kim Jong-un"
+            ],
+            "answer_given": " Kim Jong-un",
+            "answer_correct": true
+        },
+        {
+            "query_text": "Where is the erector spinae located in the body?",
+            "expected_answer": [
+                "the back"
+            ],
+            "answer_given": "",
+            "answer_correct": false
+        },
+        {
+            "query_text": "Which famous physicist wrote the book 'A Brief History of Time'?",
+            "expected_answer": [
+                "Stephen Hawking"
+            ],
+            "answer_given": " Stephen Hawking",
+            "answer_correct": true
+        },
+        {
+            "query_text": "Which language is primarily spoken in Brazil?",
+            "expected_answer": [
+                "Portuguese"
+            ],
+            "answer_given": "Portuguese",
+            "answer_correct": true
+        },
+        {
+            "query_text": "What ancient city was famously besieged for 10 years and is the setting for Homer's 'Iliad'?",
+            "expected_answer": [
+                "Troy"
+            ],
+            "answer_given": " Troy",
+            "answer_correct": true
+        },
+        {
+            "query_text": "What is the largest desert in the world?",
+            "expected_answer": [
+                "Sahara"
+            ],
+            "answer_given": "The Sahara",
+            "answer_correct": true
+        },
+        {
+            "query_text": "Which ancient civilization is credited with the construction of pyramids?",
+            "expected_answer": [
+                "Ancient Egyptians"
+            ],
+            "answer_given": " Egyptians",
+            "answer_correct": true
+        },
+        {
+            "query_text": "Who formulated the three laws of motion?",
+            "expected_answer": [
+                "Sir Isaac Newton"
+            ],
+            "answer_given": "Isaac Newton",
+            "answer_correct": true
+        },
+        {
+            "query_text": "Which country is known as the Land of the Rising Sun?",
+            "expected_answer": [
+                "Japan"
+            ],
+            "answer_given": "Afghanistan",
+            "answer_correct": false
+        },
+        {
+            "query_text": "What is the study of stars and celestial bodies called?",
+            "expected_answer": [
+                "Astronomy"
+            ],
+            "answer_given": "Astronomy",
+            "answer_correct": true
+        },
+        {
+            "query_text": "Who was the Greek god of war?",
+            "expected_answer": [
+                "Ares"
+            ],
+            "answer_given": " Ares",
+            "answer_correct": true
+        },
+        {
+            "query_text": "Which body part does an optometrist primarily care for?",
+            "expected_answer": [
+                "Eyes"
+            ],
+            "answer_given": " eye disease. Ophthalmologists are allowed to medically treat eye disease",
+            "answer_correct": false
+        },
+        {
+            "query_text": "What is the primary ingredient in guacamole?",
+            "expected_answer": [
+                "Avocado"
+            ],
+            "answer_given": " avocados, salt and sometimes tomatoes",
+            "answer_correct": true
+        },
+        {
+            "query_text": "In which city is the headquarters of the United Nations located?",
+            "expected_answer": [
+                "New York City"
+            ],
+            "answer_given": " New York City",
+            "answer_correct": true
+        },
+        {
+            "query_text": "Which element is represented by the chemical symbol 'Au'?",
+            "expected_answer": [
+                "Gold"
+            ],
+            "answer_given": " gold",
+            "answer_correct": true
+        },
+        {
+            "query_text": "Which animal is known as the 'king of the jungle'?",
+            "expected_answer": [
+                "Lion"
+            ],
+            "answer_given": " orangutan",
+            "answer_correct": false
+        },
+        {
+            "query_text": "What is the smallest bone in the human body?",
+            "expected_answer": [
+                "Stapes",
+                "Ossicles"
+            ],
+            "answer_given": " ossicles",
+            "answer_correct": true
+        },
+        {
+            "query_text": "What is the hardest known natural material on Earth?",
+            "expected_answer": [
+                "Diamond"
+            ],
+            "answer_given": "",
+            "answer_correct": false
+        },
+        {
+            "query_text": "Who composed the 'Moonlight Sonata'?",
+            "expected_answer": [
+                "Ludwig van Beethoven"
+            ],
+            "answer_given": " Ludwig van Beethoven",
+            "answer_correct": true
+        },
+        {
+            "query_text": "What is the Japanese art of paper folding called?",
+            "expected_answer": [
+                "Origami"
+            ],
+            "answer_given": "Origami",
+            "answer_correct": true
+        },
+        {
+            "query_text": "Which city is famously associated with the legend of Dracula?",
+            "expected_answer": [
+                "Bran, Romania"
+            ],
+            "answer_given": "Romania",
+            "answer_correct": true
+        },
+        {
+            "query_text": "What's the study of insects called?",
+            "expected_answer": [
+                "Entomology"
+            ],
+            "answer_given": " entomologists",
+            "answer_correct": false
+        },
+        {
+            "query_text": "Who is known for saying 'I think, therefore I am'?",
+            "expected_answer": [
+                "Ren\u00e9 Descartes"
+            ],
+            "answer_given": " Ren\u00e9 Descartes",
+            "answer_correct": true
+        },
+        {
+            "query_text": "Which Brazilian martial art combines elements of dance, acrobatics, and music?",
+            "expected_answer": [
+                "Capoeira"
+            ],
+            "answer_given": " capoeira",
+            "answer_correct": true
+        },
+        {
+            "query_text": "What is the art of growing small trees in called?",
+            "expected_answer": [
+                "Bonsai"
+            ],
+            "answer_given": "Penjing",
+            "answer_correct": false
+        }
+    ]
+}
