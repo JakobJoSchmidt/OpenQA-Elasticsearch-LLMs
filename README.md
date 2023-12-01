@@ -1,4 +1,4 @@
-# OpenQA-Elasticsearch-LMMs
+# OpenQA-Elasticsearch-LLMs
 
 Repository für meine Masterarbeit "Konzeption und Implementierung eines Open-Domain Frage-Antwort-Systems mit Elasticsearch und Sprachmodellen"
 
