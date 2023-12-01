@@ -19,7 +19,6 @@ cross_encoder = CrossEncoder('cross-encoder/ms-marco-MiniLM-L-6-v2')
 
 
 def generate_embedding(query_text):
-    # todo remove normalize
     model = SentenceTransformer(model_name)
     embedding = model.encode([query_text])
     normalized_embedding = normalize(embedding).tolist()[0]
