@@ -106,12 +106,6 @@ def bulk_index_passages(es_client, passages_chunk, embeddings):
         raise ConnectionTimeout(f"Failed to index chunk starting with docid {passages_chunk[0][1]} after {max_retries} retries")
 
 def load_passages(dataset_filepath):
-    """
-    Load passages from a gzipped JSONL file.
-
-    :param dataset_filepath: Path to the gzipped JSONL file.
-    :return: List of passages. Each passage is a tuple of the form (global_index, docid, paragraph).
-    """
     passages = []
 
     with gzip.open(dataset_filepath, 'rt', encoding='utf8') as fIn:
