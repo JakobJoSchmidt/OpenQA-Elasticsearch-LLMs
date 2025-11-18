@@ -1,6 +1,6 @@
 # OpenQA-Elasticsearch-LLMs
 
-Repository for my master's thesis "Design and Implementation of an Open-Domain Question-Answering System with Elasticsearch and Language Models"
+Repository for my master's thesis “Design and Implementation of an Open-Domain Question-Answering System with Elasticsearch and Language Models” for a Master’s degree in Computer Science.
 
 # Abstract
  
